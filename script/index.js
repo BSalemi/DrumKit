@@ -9,3 +9,7 @@ function playSound(e){
     audio.currentTime = 0;
     audio.play()
 }
+
+const keys = Array.from(document.querySelectorAll('key'));
+keys.forEach(key => key.addEventListener('transitioned', removeTransition));
+window.addEventListener('keydown', playSound);
