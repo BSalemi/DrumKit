@@ -1,0 +1,12 @@
+{
+    "name": "rainbow-drum",
+    "version": "1.0.0",
+    "description": "JavaScript/HTML project that plays drum sounds on keydown",
+    "scripts": {
+      "start": "serve"
+    },
+    "dependencies": {
+      "serve": "^10.0.1"
+    },
+    "author": "Brian Salemi"
+  }
